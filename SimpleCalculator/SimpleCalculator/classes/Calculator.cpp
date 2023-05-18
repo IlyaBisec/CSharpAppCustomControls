@@ -1,3 +1,6 @@
+//Copyright (c) Ilya-BISEC.
+//MainCalcForm.cpp - описание методов Calculator.h
+
 #include "Calculator.h"
 
 namespace SimpleCalculator {

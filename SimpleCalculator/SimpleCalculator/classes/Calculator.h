@@ -1,3 +1,6 @@
+//Copyright (c) Ilya-BISEC.
+//Calculator - реализация основного функционала калькулятор
+
 #pragma once
 
 using namespace System;
