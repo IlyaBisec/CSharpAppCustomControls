@@ -121,9 +121,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="classes\Calculator.cpp" />
     <ClCompile Include="Forms\MainCalcForm.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="classes\Calculator.h" />
     <ClInclude Include="Forms\MainCalcForm.h">
       <FileType>CppForm</FileType>
     </ClInclude>
