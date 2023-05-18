@@ -1,5 +1,5 @@
 //Copyright (c) Ilya-BISEC.
-//MainCalcForm.cpp - описание методов MainCalcForm
+//MainCalcForm.cpp - description of MainCalcForm.h  methods
 
 #include "MainCalcForm.h"
 #include "..\classes\Calculator.h"

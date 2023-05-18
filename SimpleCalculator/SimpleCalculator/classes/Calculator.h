@@ -1,5 +1,5 @@
 //Copyright (c) Ilya-BISEC.
-//Calculator - реализация основного функционала калькулятор
+//Calculator - implementation of the basic functionality of the calculator
 
 #pragma once
 
