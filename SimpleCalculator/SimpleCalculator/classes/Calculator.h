@@ -13,27 +13,17 @@ namespace SimpleCalculator {
 	{
 	public:
 		
-		//performs basic functions, return result in double
-		double base_calculate(double x, char operand, double y, double result);
-		
-		//performs basic functions, return result in textbox
-		void base_calculate(double x, char operand, double y, TextBox^ texbox);
+		//performs basic functions,such as: divide, increase,
+		//plus, minus, percent and etc, return result in textbox output
+		void base_calculate(double first, String^ operators, double second,
+			double result, OwnControls::Controls::Modern_TextBox^ texbox);
 
-		//double base_calculate(double x, char operand, double y, double result, String msg);
-		//double base_calculate(double x, char operand, double y, double result, char msg[]);
-		//double base_calculate(double x, char operand, double y, double result, TextBox^ texbox);
+		//function plus and minus, return result in textbox output
+		void base_plusAndMinus(OwnControls::Controls::Modern_TextBox^ texbox);
 
-		//find x, y and between them oper for calculating 
-		void get_StringForDevide(TextBox^ texbox);
-
+		//send message to user in panel of output
 		void sendMessageToUser(char msg[], TextBox^ tetxbox);
 		void sendMessageToUser(String^ msg, TextBox^ tetxbox);
-
-		Calculator();
-		~Calculator();
-
-
-
 
 	};
 

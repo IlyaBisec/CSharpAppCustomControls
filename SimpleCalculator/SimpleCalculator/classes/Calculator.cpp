@@ -5,31 +5,49 @@
 
 namespace SimpleCalculator {
 
-	void Calculator::base_calculate(double x, char operand, double y, TextBox^ textbox)
+
+	void Calculator::base_calculate(double first, String^ operators, double second, 
+		double result, OwnControls::Controls::Modern_TextBox^ texbox)
 	{
-		int x1 = Convert::ToInt32(x);
-		int y2 = Convert::ToInt32(y);
-
-		switch (operand)
+		if (operators == "+")
 		{
-		case '+':
-			textbox->Text = Convert::ToString(x + y);
-		case '-':
-			textbox->Text = Convert::ToString(x - y);
-		case '*':
-			textbox->Text = Convert::ToString(x * y);
-		case '/':
-			textbox->Text = Convert::ToString(x / y);
-		case '%':
-			textbox->Text = Convert::ToString(x1 % y2);
-		default:
-			textbox->Text = Convert::ToString(0.00);
-			x1 = 0; y2 = 0;
-			break;
+			result = first + second;
+			texbox->Texts = Convert::ToString(result);
 		}
+		else if (operators == "-")
+		{
+			result = first - second;
+			texbox->Texts = Convert::ToString(result);
+		}
+		else if (operators == "*")
+		{
+			result = first * second;
+			texbox->Texts = Convert::ToString(result);
+		}
+		else if (operators == "/")
+		{
+			result = first / second;
+			texbox->Texts = Convert::ToString(result);
+		}
+		else if (operators == "%")
+		{
+			int f = Convert::ToInt32(first),
+				s = Convert::ToInt32(second);
 
-
+			result = f % s;
+			texbox->Texts = Convert::ToString(result);
+		}
 	}
+
+	void Calculator::base_plusAndMinus(OwnControls::Controls::Modern_TextBox^ texbox)
+	{
+		if (texbox->Texts->Contains("-"))
+			texbox->Texts = texbox->Texts->Remove(0, 1);
+		else
+			texbox->Texts = "-" + texbox->Texts;
+	}
+
+
 
 	void Calculator::sendMessageToUser(char msg[], TextBox^ textbox)
 	{

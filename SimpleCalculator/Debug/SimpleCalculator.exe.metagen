@@ -21,6 +21,8 @@ Struct SimpleCalculator.Calculator: AutoLayout, AnsiClass, Class, Public, Sequen
 Class SimpleCalculator.MainCalcForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-  Methods:
-    sendToTablo(SByte IsSignUnspecifiedByte, Modern_TextBox): PrivateScope, Public, HideBySig
-    sendToTablo(Modern_Button, Modern_TextBox): PrivateScope, Public, HideBySig
+  Fields:
+    Double firstDigit : Public
+    Double secondDigit : Public
+    Double result : Public
+    System.String operators : Public

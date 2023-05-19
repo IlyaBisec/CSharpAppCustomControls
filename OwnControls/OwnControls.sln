@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwnControls", "OwnControls.csproj", "{7E02830D-0949-460B-AFD1-28776E69AA3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E02830D-0949-460B-AFD1-28776E69AA3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E02830D-0949-460B-AFD1-28776E69AA3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E02830D-0949-460B-AFD1-28776E69AA3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E02830D-0949-460B-AFD1-28776E69AA3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {926CE7EC-5410-48D6-BB3E-2470DFD41B15}
+	EndGlobalSection
+EndGlobal
