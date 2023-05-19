@@ -1,0 +1,149 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2081,5): warning MSB3245: Не удалось разрешить данную ссылку. Не удалось обнаружить сборку "OwnControls". Убедитесь, что сборка существует на диске. Если данная ссылка требуется в коде, это может вызвать ошибки компиляции.
+  Calculator.cpp
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\classes\Calculator.h(19,56): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\classes\Calculator.h(19,56): error C2061: синтаксическая ошибка: идентификатор "Modern_TextBox"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\classes\Calculator.h(22,63): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\classes\Calculator.h(22,63): error C2061: синтаксическая ошибка: идентификатор "Modern_TextBox"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\classes\Calculator.cpp(10,55): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\classes\Calculator.cpp(10,55): error C2061: синтаксическая ошибка: идентификатор "Modern_TextBox"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\classes\Calculator.cpp(15,4): error C2065: texbox: необъявленный идентификатор
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\classes\Calculator.cpp(20,4): error C2065: texbox: необъявленный идентификатор
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\classes\Calculator.cpp(25,4): error C2065: texbox: необъявленный идентификатор
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\classes\Calculator.cpp(30,4): error C2065: texbox: необъявленный идентификатор
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\classes\Calculator.cpp(38,4): error C2065: texbox: необъявленный идентификатор
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\classes\Calculator.cpp(42,74): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\classes\Calculator.cpp(42,60): error C2065: Modern_TextBox: необъявленный идентификатор
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\classes\Calculator.cpp(42,76): error C2065: texbox: необъявленный идентификатор
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\classes\Calculator.cpp(42,82): error C2761: "void SimpleCalculator::Calculator::base_plusAndMinus(void)": повторное объявление члена запрещено.
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\classes\Calculator.cpp(43,2): error C2448: SimpleCalculator::Calculator::base_plusAndMinus: вероятно, инициализатор, использующий стиль функции, является определением функции
+  MainCalcForm.cpp
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(44,47): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(44,34): error C2039: "Modern_Button": не является членом "System::Windows::Forms::Control::Controls".
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(44,47): error C2143: синтаксическая ошибка: отсутствие ";" перед "^"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(44,47): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(44,53): error C2238: непредвиденные лексемы перед ";"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(45,47): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(45,34): error C2039: "Modern_Button": не является членом "System::Windows::Forms::Control::Controls".
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(45,47): error C2143: синтаксическая ошибка: отсутствие ";" перед "^"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(45,47): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(45,57): error C2238: непредвиденные лексемы перед ";"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(46,47): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(46,34): error C2039: "Modern_Button": не является членом "System::Windows::Forms::Control::Controls".
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(46,47): error C2143: синтаксическая ошибка: отсутствие ";" перед "^"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(46,47): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(46,57): error C2238: непредвиденные лексемы перед ";"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(47,47): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(47,34): error C2039: "Modern_Button": не является членом "System::Windows::Forms::Control::Controls".
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(47,47): error C2143: синтаксическая ошибка: отсутствие ";" перед "^"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(47,47): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(47,56): error C2238: непредвиденные лексемы перед ";"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(48,47): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(48,34): error C2039: "Modern_Button": не является членом "System::Windows::Forms::Control::Controls".
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(48,47): error C2143: синтаксическая ошибка: отсутствие ";" перед "^"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(48,47): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(48,53): error C2238: непредвиденные лексемы перед ";"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(52,47): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(52,34): error C2039: "Modern_Button": не является членом "System::Windows::Forms::Control::Controls".
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(52,47): error C2143: синтаксическая ошибка: отсутствие ";" перед "^"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(52,47): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(52,53): error C2238: непредвиденные лексемы перед ";"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(54,47): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(54,34): error C2039: "Modern_Button": не является членом "System::Windows::Forms::Control::Controls".
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(54,47): error C2143: синтаксическая ошибка: отсутствие ";" перед "^"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(54,47): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(54,53): error C2238: непредвиденные лексемы перед ";"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(56,47): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(56,34): error C2039: "Modern_Button": не является членом "System::Windows::Forms::Control::Controls".
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(56,47): error C2143: синтаксическая ошибка: отсутствие ";" перед "^"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(56,47): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(56,57): error C2238: непредвиденные лексемы перед ";"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(57,47): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(57,34): error C2039: "Modern_Button": не является членом "System::Windows::Forms::Control::Controls".
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(57,47): error C2143: синтаксическая ошибка: отсутствие ";" перед "^"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(57,47): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(57,53): error C2238: непредвиденные лексемы перед ";"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(60,47): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(60,34): error C2039: "Modern_Button": не является членом "System::Windows::Forms::Control::Controls".
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(60,47): error C2143: синтаксическая ошибка: отсутствие ";" перед "^"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(60,47): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(60,53): error C2238: непредвиденные лексемы перед ";"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(63,47): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(63,34): error C2039: "Modern_Button": не является членом "System::Windows::Forms::Control::Controls".
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(63,47): error C2143: синтаксическая ошибка: отсутствие ";" перед "^"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(63,47): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(63,53): error C2238: непредвиденные лексемы перед ";"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(65,47): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(65,34): error C2039: "Modern_Button": не является членом "System::Windows::Forms::Control::Controls".
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(65,47): error C2143: синтаксическая ошибка: отсутствие ";" перед "^"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(65,47): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(65,60): error C2238: непредвиденные лексемы перед ";"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(66,47): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(66,34): error C2039: "Modern_Button": не является членом "System::Windows::Forms::Control::Controls".
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(66,47): error C2143: синтаксическая ошибка: отсутствие ";" перед "^"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(66,47): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(66,53): error C2238: непредвиденные лексемы перед ";"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(69,47): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(69,34): error C2039: "Modern_Button": не является членом "System::Windows::Forms::Control::Controls".
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(69,47): error C2143: синтаксическая ошибка: отсутствие ";" перед "^"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(69,47): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(69,53): error C2238: непредвиденные лексемы перед ";"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(71,47): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(71,34): error C2039: "Modern_Button": не является членом "System::Windows::Forms::Control::Controls".
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(71,47): error C2143: синтаксическая ошибка: отсутствие ";" перед "^"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(71,47): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(71,53): error C2238: непредвиденные лексемы перед ";"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(73,47): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(73,34): error C2039: "Modern_Button": не является членом "System::Windows::Forms::Control::Controls".
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(73,47): error C2143: синтаксическая ошибка: отсутствие ";" перед "^"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(73,47): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(73,58): error C2238: непредвиденные лексемы перед ";"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(74,47): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(74,34): error C2039: "Modern_Button": не является членом "System::Windows::Forms::Control::Controls".
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(74,47): error C2143: синтаксическая ошибка: отсутствие ";" перед "^"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(74,47): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(74,53): error C2238: непредвиденные лексемы перед ";"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(75,47): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(75,34): error C2039: "Modern_Button": не является членом "System::Windows::Forms::Control::Controls".
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(75,47): error C2143: синтаксическая ошибка: отсутствие ";" перед "^"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(75,47): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(75,54): error C2238: непредвиденные лексемы перед ";"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(76,47): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(76,34): error C2039: "Modern_Button": не является членом "System::Windows::Forms::Control::Controls".
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(76,47): error C2143: синтаксическая ошибка: отсутствие ";" перед "^"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(76,47): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(76,64): error C2238: непредвиденные лексемы перед ";"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(84,47): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(84,34): error C2039: "Modern_Button": не является членом "System::Windows::Forms::Control::Controls".
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(84,47): error C2143: синтаксическая ошибка: отсутствие ";" перед "^"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(84,47): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(84,59): error C2238: непредвиденные лексемы перед ";"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(86,48): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(86,34): error C2039: "Modern_TextBox": не является членом "System::Windows::Forms::Control::Controls".
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(86,48): error C2143: синтаксическая ошибка: отсутствие ";" перед "^"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(86,48): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(86,58): error C2238: непредвиденные лексемы перед ";"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(91,47): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(91,34): error C2039: "Modern_Button": не является членом "System::Windows::Forms::Control::Controls".
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(91,47): error C2143: синтаксическая ошибка: отсутствие ";" перед "^"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(91,47): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(91,57): error C2238: непредвиденные лексемы перед ";"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(92,47): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(92,34): error C2039: "Modern_Button": не является членом "System::Windows::Forms::Control::Controls".
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(92,47): error C2143: синтаксическая ошибка: отсутствие ";" перед "^"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(92,47): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(92,56): error C2238: непредвиденные лексемы перед ";"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(161,1): error C2039: "mt_tablo": не является членом "SimpleCalculator::MainCalcForm".
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(15): message : см. объявление "SimpleCalculator::MainCalcForm"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(161,1): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(161,51): error C2039: "Modern_TextBox": не является членом "System::Windows::Forms::Control::Controls".
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(161,1): error C2061: синтаксическая ошибка: идентификатор "Modern_TextBox"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(163,1): error C2039: "mb_Percent": не является членом "SimpleCalculator::MainCalcForm".
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(15): message : см. объявление "SimpleCalculator::MainCalcForm"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(163,1): error C2653: OwnControls: не является именем класса или пространства имен
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(163,53): error C2039: "Modern_Button": не является членом "System::Windows::Forms::Control::Controls".
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(163,1): error C2061: синтаксическая ошибка: идентификатор "Modern_Button"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(164,1): error C2039: "mb_0": не является членом "SimpleCalculator::MainCalcForm".
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(15): message : см. объявление "SimpleCalculator::MainCalcForm"
+D:\BISEC_Company\MyProjects\GitHub\LearningProjects\SimpleCalculator\SimpleCalculator\Forms\MainCalcForm.h(164,1): fatal error C1003: число ошибок превышает 100; остановка компиляции
+  .NETFramework,Version=v4.8.AssemblyAttributes.cpp
+  Создание кода...

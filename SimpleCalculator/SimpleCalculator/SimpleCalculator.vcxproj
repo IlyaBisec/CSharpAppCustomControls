@@ -125,10 +125,14 @@
   <ItemGroup>
     <ClCompile Include="classes\Calculator.cpp" />
     <ClCompile Include="Forms\MainCalcForm.cpp" />
+    <ClCompile Include="Forms\OptionsCalc.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="classes\Calculator.h" />
     <ClInclude Include="Forms\MainCalcForm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Forms\OptionsCalc.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
