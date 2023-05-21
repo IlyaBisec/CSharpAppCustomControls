@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.30320.27
+VisualStudioVersion = 16.0.31829.152
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwnControls", "OwnControls.csproj", "{7E02830D-0949-460B-AFD1-28776E69AA3D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomMessageBox", "projects_controls\MessageBox\CustomMessageBox\CustomMessageBox.csproj", "{99054420-DE83-4AF4-9F65-7CE1D51A5561}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomMessageBox", "CustomMessageBox\CustomMessageBox.csproj", "{99054420-DE83-4AF4-9F65-7CE1D51A5561}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7E02830D-0949-460B-AFD1-28776E69AA3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7E02830D-0949-460B-AFD1-28776E69AA3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7E02830D-0949-460B-AFD1-28776E69AA3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7E02830D-0949-460B-AFD1-28776E69AA3D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{99054420-DE83-4AF4-9F65-7CE1D51A5561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{99054420-DE83-4AF4-9F65-7CE1D51A5561}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{99054420-DE83-4AF4-9F65-7CE1D51A5561}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -26,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {926CE7EC-5410-48D6-BB3E-2470DFD41B15}
+		SolutionGuid = {6814ACC7-5D1A-4E13-86C1-283BF26AC6C6}
 	EndGlobalSection
 EndGlobal
