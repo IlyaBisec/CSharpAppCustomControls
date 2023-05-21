@@ -1,8 +1,11 @@
   SimpleCalculator.Forms.MainCalcForm.resources - Embedded, ContainedInManifestFile, 
+  SimpleCalculator.Forms.OptionsCalc.resources - Embedded, ContainedInManifestFile, 
 ImageRuntimeVersion: v4.0.30319
 Assembly SimpleCalculator, Version=0.0.*, Culture=Инвариантный язык (Инвариантная страна): 
 	hash=SHA1, flags=PublicKey
 Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly CustomMessageBox, Version=1.0.*, Culture=Инвариантный язык (Инвариантная страна): 
 	hash=None, flags=None
 Assembly OwnControls, Version=1.0.*, Culture=Инвариантный язык (Инвариантная страна): 
 	hash=None, flags=None
@@ -18,6 +21,9 @@ Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c5619
 	hash=None, flags=None
 Struct SimpleCalculator.Calculator: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
   :System.ValueType
+Class SimpleCalculator.OptionsCalc: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class SimpleCalculator.MainCalcForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

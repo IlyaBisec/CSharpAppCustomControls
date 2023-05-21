@@ -113,6 +113,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <Reference Include="CustomMessageBox">
+      <HintPath>..\Debug\CustomMessageBox.dll</HintPath>
+    </Reference>
     <Reference Include="OwnControls">
       <HintPath>..\..\..\..\..\Games\ILYA'S GAMES\Для Баргу\Для Баргу Зачем\курсач\Курсовая работа 4 семестр(2 курс)\Союз Печати\UnionPressOnSharp\OwnControls\bin\Release\OwnControls.dll</HintPath>
     </Reference>
@@ -135,11 +138,22 @@
     <ClInclude Include="Forms\OptionsCalc.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Forms\MainCalcForm.resx">
       <DependentUpon>Forms\MainCalcForm.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\OptionsCalc.resx">
+      <DependentUpon>Forms\OptionsCalc.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="interface\ThemesStyles\ClassicStyle.png" />
+    <Image Include="interface\ThemesStyles\NightStyle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SimpleCalculator.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

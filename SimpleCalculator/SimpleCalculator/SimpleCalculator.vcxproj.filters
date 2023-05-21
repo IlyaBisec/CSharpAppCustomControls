@@ -35,5 +35,21 @@
     <ClInclude Include="Forms\OptionsCalc.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="interface\ThemesStyles\ClassicStyle.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+    <Image Include="interface\ThemesStyles\NightStyle.png">
+      <Filter>Файлы ресурсов</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SimpleCalculator.rc">
+      <Filter>Файлы ресурсов</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
