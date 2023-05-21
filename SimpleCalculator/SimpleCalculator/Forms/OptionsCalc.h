@@ -269,6 +269,7 @@ private: OwnControls::Controls::Modern_TextBox^ modern_TextBox2;
 			// comboBox2
 			// 
 			this->comboBox2->FormattingEnabled = true;
+			this->comboBox2->Items->AddRange(gcnew cli::array< System::Object^  >(1) { L".nog" });
 			this->comboBox2->Location = System::Drawing::Point(293, 683);
 			this->comboBox2->Name = L"comboBox2";
 			this->comboBox2->Size = System::Drawing::Size(66, 21);
@@ -331,6 +332,7 @@ private: OwnControls::Controls::Modern_TextBox^ modern_TextBox2;
 			// comboBox1
 			// 
 			this->comboBox1->FormattingEnabled = true;
+			this->comboBox1->Items->AddRange(gcnew cli::array< System::Object^  >(4) { L".byte", L".digit", L".json", L".xml" });
 			this->comboBox1->Location = System::Drawing::Point(293, 612);
 			this->comboBox1->Name = L"comboBox1";
 			this->comboBox1->Size = System::Drawing::Size(66, 21);
