@@ -160,14 +160,8 @@ namespace SimpleCalculator {
 		{
 			this->pnl_Main = (gcnew System::Windows::Forms::Panel());
 			this->pnl_Display = (gcnew System::Windows::Forms::Panel());
+			this->mt_tablo = (gcnew OwnControls::Controls::Modern_TextBox());
 			this->pnl_Middle = (gcnew System::Windows::Forms::Panel());
-			this->pnl_ControlsUp = (gcnew System::Windows::Forms::Panel());
-			this->menuStrip = (gcnew System::Windows::Forms::MenuStrip());
-			this->fileToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->optionsToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->exitToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
-			this->mb_Hide = (gcnew OwnControls::Controls::Modern_Button());
-			this->mb_close = (gcnew OwnControls::Controls::Modern_Button());
 			this->mb_Percent = (gcnew OwnControls::Controls::Modern_Button());
 			this->mb_0 = (gcnew OwnControls::Controls::Modern_Button());
 			this->mb_Divide = (gcnew OwnControls::Controls::Modern_Button());
@@ -188,7 +182,13 @@ namespace SimpleCalculator {
 			this->mb_5 = (gcnew OwnControls::Controls::Modern_Button());
 			this->mb_Minus = (gcnew OwnControls::Controls::Modern_Button());
 			this->mb_6 = (gcnew OwnControls::Controls::Modern_Button());
-			this->mt_tablo = (gcnew OwnControls::Controls::Modern_TextBox());
+			this->pnl_ControlsUp = (gcnew System::Windows::Forms::Panel());
+			this->mb_Hide = (gcnew OwnControls::Controls::Modern_Button());
+			this->mb_close = (gcnew OwnControls::Controls::Modern_Button());
+			this->menuStrip = (gcnew System::Windows::Forms::MenuStrip());
+			this->fileToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->optionsToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
+			this->exitToolStripMenuItem = (gcnew System::Windows::Forms::ToolStripMenuItem());
 			this->pnl_Main->SuspendLayout();
 			this->pnl_Display->SuspendLayout();
 			this->pnl_Middle->SuspendLayout();
@@ -213,6 +213,32 @@ namespace SimpleCalculator {
 			this->pnl_Display->Name = L"pnl_Display";
 			this->pnl_Display->Size = System::Drawing::Size(320, 107);
 			this->pnl_Display->TabIndex = 1;
+			// 
+			// mt_tablo
+			// 
+			this->mt_tablo->BackColor = System::Drawing::Color::Black;
+			this->mt_tablo->BorderColor = System::Drawing::SystemColors::InactiveCaptionText;
+			this->mt_tablo->BorderFocusColor = System::Drawing::Color::Gray;
+			this->mt_tablo->BorderRadius = 10;
+			this->mt_tablo->BorderSize = 2;
+			this->mt_tablo->Dock = System::Windows::Forms::DockStyle::Fill;
+			this->mt_tablo->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 55, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(200)));
+			this->mt_tablo->ForeColor = System::Drawing::Color::Silver;
+			this->mt_tablo->Location = System::Drawing::Point(0, 0);
+			this->mt_tablo->Margin = System::Windows::Forms::Padding(4);
+			this->mt_tablo->MultiLine = true;
+			this->mt_tablo->Name = L"mt_tablo";
+			this->mt_tablo->Padding = System::Windows::Forms::Padding(10, 7, 10, 7);
+			this->mt_tablo->PasswordStyle = false;
+			this->mt_tablo->PlaceholderColor = System::Drawing::Color::DarkGray;
+			this->mt_tablo->PlaceholderText = L"";
+			this->mt_tablo->Size = System::Drawing::Size(320, 107);
+			this->mt_tablo->TabIndex = 0;
+			this->mt_tablo->TextAlign = System::Windows::Forms::HorizontalAlignment::Right;
+			this->mt_tablo->Texts = L"0";
+			this->mt_tablo->UnderLineStyle = false;
+			this->mt_tablo->WorldWrap = false;
 			// 
 			// pnl_Middle
 			// 
@@ -242,93 +268,6 @@ namespace SimpleCalculator {
 			this->pnl_Middle->Name = L"pnl_Middle";
 			this->pnl_Middle->Size = System::Drawing::Size(323, 406);
 			this->pnl_Middle->TabIndex = 34;
-			// 
-			// pnl_ControlsUp
-			// 
-			this->pnl_ControlsUp->BackColor = System::Drawing::SystemColors::Control;
-			this->pnl_ControlsUp->Controls->Add(this->mb_Hide);
-			this->pnl_ControlsUp->Controls->Add(this->mb_close);
-			this->pnl_ControlsUp->Controls->Add(this->menuStrip);
-			this->pnl_ControlsUp->Dock = System::Windows::Forms::DockStyle::Top;
-			this->pnl_ControlsUp->Location = System::Drawing::Point(0, 0);
-			this->pnl_ControlsUp->Name = L"pnl_ControlsUp";
-			this->pnl_ControlsUp->Size = System::Drawing::Size(323, 34);
-			this->pnl_ControlsUp->TabIndex = 35;
-			this->pnl_ControlsUp->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &MainCalcForm::pnl_Bottom_Paint);
-			// 
-			// menuStrip
-			// 
-			this->menuStrip->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(1) { this->fileToolStripMenuItem });
-			this->menuStrip->Location = System::Drawing::Point(0, 0);
-			this->menuStrip->Name = L"menuStrip";
-			this->menuStrip->Size = System::Drawing::Size(323, 24);
-			this->menuStrip->TabIndex = 35;
-			this->menuStrip->Text = L"menuStrip1";
-			// 
-			// fileToolStripMenuItem
-			// 
-			this->fileToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(2) {
-				this->optionsToolStripMenuItem,
-					this->exitToolStripMenuItem
-			});
-			this->fileToolStripMenuItem->Name = L"fileToolStripMenuItem";
-			this->fileToolStripMenuItem->Size = System::Drawing::Size(37, 20);
-			this->fileToolStripMenuItem->Text = L"File";
-			// 
-			// optionsToolStripMenuItem
-			// 
-			this->optionsToolStripMenuItem->Name = L"optionsToolStripMenuItem";
-			this->optionsToolStripMenuItem->Size = System::Drawing::Size(180, 22);
-			this->optionsToolStripMenuItem->Text = L"Options";
-			this->optionsToolStripMenuItem->Click += gcnew System::EventHandler(this, &MainCalcForm::optionsToolStripMenuItem_Click);
-			// 
-			// exitToolStripMenuItem
-			// 
-			this->exitToolStripMenuItem->Name = L"exitToolStripMenuItem";
-			this->exitToolStripMenuItem->Size = System::Drawing::Size(180, 22);
-			this->exitToolStripMenuItem->Text = L"Exit";
-			// 
-			// mb_Hide
-			// 
-			this->mb_Hide->BackColor = System::Drawing::Color::Transparent;
-			this->mb_Hide->BackgroundColor = System::Drawing::Color::Transparent;
-			this->mb_Hide->BorderColor = System::Drawing::SystemColors::WindowText;
-			this->mb_Hide->BorderRadius = 5;
-			this->mb_Hide->BorderSize = 1;
-			this->mb_Hide->FlatAppearance->BorderSize = 0;
-			this->mb_Hide->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->mb_Hide->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->mb_Hide->ForeColor = System::Drawing::Color::Black;
-			this->mb_Hide->Location = System::Drawing::Point(253, 2);
-			this->mb_Hide->Name = L"mb_Hide";
-			this->mb_Hide->Size = System::Drawing::Size(30, 30);
-			this->mb_Hide->TabIndex = 34;
-			this->mb_Hide->Text = L"_";
-			this->mb_Hide->TextColor = System::Drawing::Color::Black;
-			this->mb_Hide->UseVisualStyleBackColor = false;
-			this->mb_Hide->Click += gcnew System::EventHandler(this, &MainCalcForm::mb_Hide_Click);
-			// 
-			// mb_close
-			// 
-			this->mb_close->BackColor = System::Drawing::Color::Transparent;
-			this->mb_close->BackgroundColor = System::Drawing::Color::Transparent;
-			this->mb_close->BorderColor = System::Drawing::Color::Black;
-			this->mb_close->BorderRadius = 5;
-			this->mb_close->BorderSize = 1;
-			this->mb_close->FlatAppearance->BorderSize = 0;
-			this->mb_close->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->mb_close->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(204)));
-			this->mb_close->ForeColor = System::Drawing::Color::Black;
-			this->mb_close->Location = System::Drawing::Point(289, 2);
-			this->mb_close->Name = L"mb_close";
-			this->mb_close->Size = System::Drawing::Size(30, 30);
-			this->mb_close->TabIndex = 33;
-			this->mb_close->Text = L"x";
-			this->mb_close->TextColor = System::Drawing::Color::Black;
-			this->mb_close->UseVisualStyleBackColor = false;
-			this->mb_close->Click += gcnew System::EventHandler(this, &MainCalcForm::mb_close_Click);
 			// 
 			// mb_Percent
 			// 
@@ -750,31 +689,92 @@ namespace SimpleCalculator {
 			this->mb_6->UseVisualStyleBackColor = false;
 			this->mb_6->Click += gcnew System::EventHandler(this, &MainCalcForm::EnterNumber);
 			// 
-			// mt_tablo
+			// pnl_ControlsUp
 			// 
-			this->mt_tablo->BackColor = System::Drawing::Color::Black;
-			this->mt_tablo->BorderColor = System::Drawing::SystemColors::InactiveCaptionText;
-			this->mt_tablo->BorderFocusColor = System::Drawing::Color::Gray;
-			this->mt_tablo->BorderRadius = 10;
-			this->mt_tablo->BorderSize = 2;
-			this->mt_tablo->Dock = System::Windows::Forms::DockStyle::Fill;
-			this->mt_tablo->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 55, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
-				static_cast<System::Byte>(200)));
-			this->mt_tablo->ForeColor = System::Drawing::Color::Silver;
-			this->mt_tablo->Location = System::Drawing::Point(0, 0);
-			this->mt_tablo->Margin = System::Windows::Forms::Padding(4);
-			this->mt_tablo->MultiLine = true;
-			this->mt_tablo->Name = L"mt_tablo";
-			this->mt_tablo->Padding = System::Windows::Forms::Padding(10, 7, 10, 7);
-			this->mt_tablo->PasswordStyle = false;
-			this->mt_tablo->PlaceholderColor = System::Drawing::Color::DarkGray;
-			this->mt_tablo->PlaceholderText = L"";
-			this->mt_tablo->Size = System::Drawing::Size(320, 107);
-			this->mt_tablo->TabIndex = 0;
-			this->mt_tablo->TextAlign = System::Windows::Forms::HorizontalAlignment::Right;
-			this->mt_tablo->Texts = L"0";
-			this->mt_tablo->UnderLineStyle = false;
-			this->mt_tablo->WorldWrap = false;
+			this->pnl_ControlsUp->BackColor = System::Drawing::SystemColors::Control;
+			this->pnl_ControlsUp->Controls->Add(this->mb_Hide);
+			this->pnl_ControlsUp->Controls->Add(this->mb_close);
+			this->pnl_ControlsUp->Controls->Add(this->menuStrip);
+			this->pnl_ControlsUp->Dock = System::Windows::Forms::DockStyle::Top;
+			this->pnl_ControlsUp->Location = System::Drawing::Point(0, 0);
+			this->pnl_ControlsUp->Name = L"pnl_ControlsUp";
+			this->pnl_ControlsUp->Size = System::Drawing::Size(323, 34);
+			this->pnl_ControlsUp->TabIndex = 35;
+			this->pnl_ControlsUp->Paint += gcnew System::Windows::Forms::PaintEventHandler(this, &MainCalcForm::pnl_Bottom_Paint);
+			// 
+			// mb_Hide
+			// 
+			this->mb_Hide->BackColor = System::Drawing::Color::Transparent;
+			this->mb_Hide->BackgroundColor = System::Drawing::Color::Transparent;
+			this->mb_Hide->BorderColor = System::Drawing::SystemColors::WindowText;
+			this->mb_Hide->BorderRadius = 5;
+			this->mb_Hide->BorderSize = 1;
+			this->mb_Hide->FlatAppearance->BorderSize = 0;
+			this->mb_Hide->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->mb_Hide->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 9, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->mb_Hide->ForeColor = System::Drawing::Color::Black;
+			this->mb_Hide->Location = System::Drawing::Point(253, 2);
+			this->mb_Hide->Name = L"mb_Hide";
+			this->mb_Hide->Size = System::Drawing::Size(30, 30);
+			this->mb_Hide->TabIndex = 34;
+			this->mb_Hide->Text = L"_";
+			this->mb_Hide->TextColor = System::Drawing::Color::Black;
+			this->mb_Hide->UseVisualStyleBackColor = false;
+			this->mb_Hide->Click += gcnew System::EventHandler(this, &MainCalcForm::mb_Hide_Click);
+			// 
+			// mb_close
+			// 
+			this->mb_close->BackColor = System::Drawing::Color::Transparent;
+			this->mb_close->BackgroundColor = System::Drawing::Color::Transparent;
+			this->mb_close->BorderColor = System::Drawing::Color::Black;
+			this->mb_close->BorderRadius = 5;
+			this->mb_close->BorderSize = 1;
+			this->mb_close->FlatAppearance->BorderSize = 0;
+			this->mb_close->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->mb_close->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(204)));
+			this->mb_close->ForeColor = System::Drawing::Color::Black;
+			this->mb_close->Location = System::Drawing::Point(289, 2);
+			this->mb_close->Name = L"mb_close";
+			this->mb_close->Size = System::Drawing::Size(30, 30);
+			this->mb_close->TabIndex = 33;
+			this->mb_close->Text = L"x";
+			this->mb_close->TextColor = System::Drawing::Color::Black;
+			this->mb_close->UseVisualStyleBackColor = false;
+			this->mb_close->Click += gcnew System::EventHandler(this, &MainCalcForm::mb_close_Click);
+			// 
+			// menuStrip
+			// 
+			this->menuStrip->Items->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(1) { this->fileToolStripMenuItem });
+			this->menuStrip->Location = System::Drawing::Point(0, 0);
+			this->menuStrip->Name = L"menuStrip";
+			this->menuStrip->Size = System::Drawing::Size(323, 24);
+			this->menuStrip->TabIndex = 35;
+			this->menuStrip->Text = L"menuStrip1";
+			// 
+			// fileToolStripMenuItem
+			// 
+			this->fileToolStripMenuItem->DropDownItems->AddRange(gcnew cli::array< System::Windows::Forms::ToolStripItem^  >(2) {
+				this->optionsToolStripMenuItem,
+					this->exitToolStripMenuItem
+			});
+			this->fileToolStripMenuItem->Name = L"fileToolStripMenuItem";
+			this->fileToolStripMenuItem->Size = System::Drawing::Size(37, 20);
+			this->fileToolStripMenuItem->Text = L"File";
+			// 
+			// optionsToolStripMenuItem
+			// 
+			this->optionsToolStripMenuItem->Name = L"optionsToolStripMenuItem";
+			this->optionsToolStripMenuItem->Size = System::Drawing::Size(180, 22);
+			this->optionsToolStripMenuItem->Text = L"Options";
+			this->optionsToolStripMenuItem->Click += gcnew System::EventHandler(this, &MainCalcForm::optionsToolStripMenuItem_Click);
+			// 
+			// exitToolStripMenuItem
+			// 
+			this->exitToolStripMenuItem->Name = L"exitToolStripMenuItem";
+			this->exitToolStripMenuItem->Size = System::Drawing::Size(180, 22);
+			this->exitToolStripMenuItem->Text = L"Exit";
 			// 
 			// MainCalcForm
 			// 
