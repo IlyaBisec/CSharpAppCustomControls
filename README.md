@@ -6,9 +6,9 @@
 <a><b>OwnControls</b> - these are their own controls (buttons, input fields, combobox, listbox, etc.), inherit the functionality of the basic controls.</a><br>
 <a>When building, we get the OwnControls.DLL</a><br>
 <p></p><img src="https://github.com/Sadochok-BISEC/CSharpAppCustomControls/blob/main/image_desc/own_1.PNG"/><br>
-<a>To connect to the project, just drop the dll into the project folder and in the links Project->add->reference->overview->select the DLL</a><br>
+<a>To connect to the project, just drop the dll into the project folder and in the links Project->add->reference->browse->select the DLL</a><br>
 <p>Adding to the project</p><img src="https://github.com/Sadochok-BISEC/CSharpAppCustomControls/blob/main/image_desc/own_2.PNG"/><br>
-<p>The list of libs connected ones, then an overview</p><img src="https://github.com/Sadochok-BISEC/CSharpAppCustomControls/blob/main/image_desc/own_3.PNG"/><br>
+<p>The list of libs connected ones, then an browse</p><img src="https://github.com/Sadochok-BISEC/CSharpAppCustomControls/blob/main/image_desc/own_3.PNG"/><br>
 <p>Choose our OwnControls.dll, check the box in the list</p><img src="https://github.com/Sadochok-BISEC/CSharpAppCustomControls/blob/main/image_desc/own_4.PNG"/><br>
 <p>If you do not see components with the 'modern_' prefix after adding them to the control</p><img src="https://github.com/Sadochok-BISEC/CSharpAppCustomControls/blob/main/image_desc/own_6.PNG"/><br>
 <p>What needs to be dragged OwnControls.DLL in the place of Generals, here is the entry from below</p><img src="https://github.com/Sadochok-BISEC/CSharpAppCustomControls/blob/main/image_desc/own_drag_and_drop_dll.gif"/><br>
