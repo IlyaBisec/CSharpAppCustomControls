@@ -14,8 +14,8 @@
 <p>То, необходимо перетащить OwnControls.DLL в место Genrals, вот запись снизу</p><img src="https://github.com/Sadochok-BISEC/CSharpAppCustomControls/blob/main/image_desc/own_drag_and_drop_dll.gif"/><br>
 <p>Результат</p><img src="https://github.com/Sadochok-BISEC/CSharpAppCustomControls/blob/main/image_desc/own_5.PNG"/><br>
 <p>В репозитории также есть пример использования этой dll, на примере простого калькулятора</p><img src="https://github.com/Sadochok-BISEC/CSharpAppCustomControls/blob/main/image_desc/app_own.PNG"/><br>
-<p>Или более сложной системы UnionPressProject</p>
-<a href="https://github.com/Sadochok-BISEC/UnionPressProject"></a><br>
+<p>Или более сложной системы
+<a href="https://github.com/Sadochok-BISEC/UnionPressProject">UnionPressProject</a></p><br>
 
 
 
