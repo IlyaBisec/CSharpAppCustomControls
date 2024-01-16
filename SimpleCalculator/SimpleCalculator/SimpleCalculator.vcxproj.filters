@@ -52,4 +52,7 @@
       <Filter>Файлы ресурсов</Filter>
     </ResourceCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="depences\OwnControls.dll" />
+  </ItemGroup>
 </Project>
