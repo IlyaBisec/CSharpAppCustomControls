@@ -120,7 +120,6 @@
   <ItemGroup>
     <None Include="interface\calendarDark.png" />
     <None Include="interface\calendarWhite.png" />
-    <Content Include="Souz.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
