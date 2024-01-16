@@ -1,6 +1,3 @@
-# C# Simple application and custom controls lib
-
-
 <h1>User's Guide / Руководство пользователя</h1>
 
 <a><b>OwnControls</b> - these are their own controls (buttons, input fields, combobox, listbox, etc.), inherit the functionality of the basic controls.</a><br>
